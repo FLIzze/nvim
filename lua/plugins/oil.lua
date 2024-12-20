@@ -1,5 +1,11 @@
 return {
     {
+        'nvim-tree/nvim-web-devicons', -- Ensure devicons is loaded before oil.nvim
+        config = function()
+            require("nvim-web-devicons").setup() -- Make sure devicons are configured
+        end
+    },
+    {
         'stevearc/oil.nvim',
         dependencies = { "nvim-tree/nvim-web-devicons" },
         config = function()
@@ -16,3 +22,4 @@ return {
         end
     }
 }
+
