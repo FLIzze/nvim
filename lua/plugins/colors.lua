@@ -1,5 +1,5 @@
 function ColorMyPencils(color)
-	color = color or 'rose-pine'
+	color = color or 'kanagawa-wave'
 	vim.cmd.colorscheme(color)
 
     -- Set the background to transparent
@@ -9,8 +9,8 @@ end
 
 return {
   {
-    "rose-pine/neovim",
-    name = "rose-pine",
+    "rebelot/kanagawa.nvim",
+    name = "lotus",
     config = function()
 	    ColorMyPencils()
     end
