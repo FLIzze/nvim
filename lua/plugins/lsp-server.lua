@@ -23,7 +23,7 @@ return {
             -- Configure Mason LSPConfig
             require('mason-lspconfig').setup({
                 ensure_installed = {
-                    'html', 'htmx', 'cssls', 'pyright', 'rust_analyzer', 
+                    'html', 'htmx', 'cssls', 'pyright', 
                     'ts_ls', 'gopls', 'eslint', 'tailwindcss', 
                 },
             })
