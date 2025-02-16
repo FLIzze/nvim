@@ -11,6 +11,4 @@ vim.opt.smartindent = true
 
 vim.opt.swapfile = false
 
-vim.opt.termguicolors = true
-
 vim.opt.scrolloff = 8
