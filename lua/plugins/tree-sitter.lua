@@ -23,15 +23,4 @@ return {
             }
         end,
     },
-
-    {
-        "nvim-treesitter/nvim-treesitter-context",
-        config = function()
-            require'treesitter-context'.setup {
-                enable = true,  -- Enable the context window
-                max_lines = 0,  -- Adjust how many lines to show above the current context (0 shows the full context)
-            }
-        end,
-    },
 }
-
