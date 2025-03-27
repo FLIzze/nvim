@@ -24,8 +24,7 @@ return {
         vim.keymap.set('n', '<C-f>', function()
 
         require('telescope.builtin').find_files({
-            -- Set the search directory to your $HOME or another location
-            cwd = vim.fn.expand('$HOME'),
+            cwd = vim.fn.expand('$HOME/Documents/'),
         })
     end, { desc = 'Telescope find files from $HOME' })
 
